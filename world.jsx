@@ -10,7 +10,7 @@ class World extends React.Component {
     		<div id='alpaca'>
     			<img src={picture} style={{height: 200}}></img>
     		</div>
-   			<div id='worldh1'>
+   			<div id='worldh1'> 
    				<h1>World</h1>
    			</div>
      	</div>
