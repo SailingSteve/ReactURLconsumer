@@ -15,13 +15,16 @@ class ItemLister extends React.Component {
     
     render() {        
         return(
-            <ul>
-                {this.state.items.length ?
-                    this.state.items.map(item=>
-                        <li key={item.id}>{item.updated_at}</li>) :
-                        <li>Loading...</li>
-          }
-            </ul>  
+            <div id='list'>
+                <div id='nameList'>List of git commits:</div>
+                <ul>
+                    {this.state.items.length ?
+                        this.state.items.map(item=>
+                            <li key={item.id}>{item.updated_at}</li>) :
+                            <li>Loading...</li>
+                    }
+                </ul>
+            </div>  
         );
     }
 }
