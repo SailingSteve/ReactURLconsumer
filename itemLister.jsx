@@ -20,7 +20,7 @@ class ItemLister extends React.Component {
                 <ul>
                     {this.state.items.length ?
                         this.state.items.map(item=>
-                            <li key={item.id}>{item.updated_at}</li>) :
+                            <li key={item.id}>Updated at:  {item.updated_at}, Description: {item.description} </li>) :
                             <li>Loading...</li>
                     }
                 </ul>
