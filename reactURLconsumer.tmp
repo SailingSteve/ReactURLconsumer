@@ -1,0 +1,34 @@
+ul > li:nth-child(even) {
+  margin: 15px 0px;
+  background-color: #ffe6cc
+}
+
+ul > li:nth-child(odd) {
+  margin: 15px 0px;
+  background-color: #f9ecb8
+}
+
+#container {
+    display: flex;
+}
+
+#hello, #world{
+	width: 125px;
+	height: 50px;
+    text-align:center;
+	background: yellow;
+	transform: translateY(45%);
+}
+
+#picture img {
+	height: 200px;
+}
+
+
+#nameList {
+	font-size: 200%;
+}
+
+#itemLister {
+ margin: 15px 0px;
+} 
